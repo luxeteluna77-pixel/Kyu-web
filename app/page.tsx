@@ -101,7 +101,7 @@ const copy: Record<Lang, CopySet> = {
   jp: {
     nav: { about: "会社概要", pipeline: "パイプライン", contact: "お問い合わせ", lang: "EN" },
     heroKicker: "呼吸器疾患創薬のバイオテクノロジー企業",
-    heroTitle: "重篤な呼吸器疾患に対する吸入治療薬を開発する。",
+    heroTitle: "重篤な呼吸器疾患に対する吸入治療薬開発",
     heroBody:
       "Kyu Therapeuticsは、特発性肺線維症（IPF）および間質性肺疾患（ILD）をはじめとした重篤な呼吸器疾患に対し、肺への局所送達を活かした革新的な吸入治療薬の開発を目指すバイオテクノロジー企業です。",
     heroCta: "お問い合わせ",
