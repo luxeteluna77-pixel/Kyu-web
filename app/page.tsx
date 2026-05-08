@@ -134,7 +134,7 @@ const copy: Record<Lang, CopySet> = {
     ],
     pipelineTitle: "Pipeline",
     pipelineLead:
-      "当社のリードプログラムは、線維化性呼吸器疾患に対する吸入局所送達の可能性を探索するものです。",
+      "当社のリードプログラムは、肺線維症を含む重篤な呼吸器疾患に対する吸入局所送達による非常に高い治療効果と低い副作用リスクを両立させた革新的な治療選択肢の可能性を探索するものです。",
     table: {
       program: "Program",
       modality: "Modality / Approach",
