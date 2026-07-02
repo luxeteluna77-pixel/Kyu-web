@@ -87,13 +87,13 @@ const copy: Record<Lang, CopySet> = {
       modality: "Modality / Approach",
       disease: "Target Disease",
       stage: "Stage",
-      rowProgram: "HL001-DPI",
+      rowProgram: "KYU001-DPI",
       rowModality: "Inhaled small molecule therapeutic",
       rowDisease: "IPF / ILD",
       rowStage: "Preclinical",
     },
     pipelineNote:
-      "HL001-DPI is our lead preclinical program designed for serious fibrotic respiratory diseases, including IPF and ILD. The program is based on an inhaled delivery approach intended to provide direct exposure to the lung.",
+      "KYU001-DPI is our lead preclinical program designed for serious fibrotic respiratory diseases, including IPF and ILD. The program is based on an inhaled delivery approach intended to provide direct exposure to the lung.",
     contactTitle: "Contact",
     contactLead: "For partnership, investment, and collaboration inquiries, please contact us.",
     footer: "© 2026 Kyu Therapeutics Inc. All rights reserved.",
@@ -140,13 +140,13 @@ const copy: Record<Lang, CopySet> = {
       modality: "Modality / Approach",
       disease: "Target Disease",
       stage: "Stage",
-      rowProgram: "HL001-DPI",
+      rowProgram: "KYU001-DPI",
       rowModality: "Inhaled small molecule therapeutic",
       rowDisease: "IPF / ILD",
       rowStage: "Preclinical",
     },
     pipelineNote:
-      "HL001-DPIは、IPFおよびILDをはじめとする重篤な線維化性呼吸器疾患を対象とした前臨床段階のリードプログラムです。吸入投与により、肺への直接的な薬剤送達を目指します。",
+      "KYU001-DPIは、IPFおよびILDをはじめとする重篤な線維化性呼吸器疾患を対象とした前臨床段階のリードプログラムです。吸入投与により、肺への直接的な薬剤送達を目指します。",
     contactTitle: "Contact",
     contactLead: "提携、投資、共同研究に関するお問い合わせは、以下までご連絡ください。",
     footer: "© 2026 Kyu Therapeutics Inc. All rights reserved.",
@@ -284,15 +284,26 @@ export default function Page() {
     <main className="min-h-screen bg-white font-sans text-[#0B2545]">
       <header className="sticky top-0 z-50 border-b border-blue-100/70 bg-white/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <button onClick={() => scrollToId("top")} className="group flex items-center gap-3" aria-label="Kyu Therapeutics home">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#56CCF2] to-[#2F80ED] text-lg font-bold text-white shadow-sm transition group-hover:scale-105">
-              K
-            </div>
-            <div className="text-left">
-              <div className="text-lg font-semibold tracking-tight">Kyu Therapeutics</div>
-              <div className="text-xs font-medium uppercase tracking-[0.24em] text-blue-500">KyuTx</div>
-            </div>
-          </button>
+   <button
+  onClick={() => scrollToId("top")}
+  className="group flex items-center gap-3"
+  aria-label="Kyu Therapeutics Inc. home"
+>
+  <img
+    src="/logo.png"
+    alt="Kyu Therapeutics Inc. logo"
+    className="h-14 w-auto object-contain transition group-hover:scale-105"
+  />
+
+  <div className="text-left">
+    <div className="text-lg font-semibold tracking-tight text-[#0B2545]">
+      Kyu Therapeutics Inc.
+    </div>
+    <div className="text-xs font-medium uppercase tracking-[0.24em] text-blue-500">
+      KyuTx
+    </div>
+  </div>
+</button>
 
           <nav className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
             <button onClick={() => scrollToId("about")} className="hover:text-blue-600">
